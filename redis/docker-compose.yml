@@ -3,6 +3,6 @@ version: '3'
 services:
   db:
     image: redis:latest
-    command: redis-server --requirepass password
+    command: redis-server
     ports:
       - 6379:6379
